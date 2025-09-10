@@ -1,0 +1,19 @@
+# Reference species
+REFSPC=maniculatus
+
+# Target species
+TARSPC=polionotus
+
+# Output directory
+OUTPUTDIR=outSFs
+
+# Block resolution (bp)
+RESOLUTION=300000
+
+
+# Config and make files for syntenic fragment construction
+# Refer to the sample files 'config.SFs' and 'Makefile.SFs'.
+# You need to change settings in the sample configuration file (config.SFs) according to your data
+# You don't need to change anything in the Makefile.SFs.
+CONFIGSFSFILE=config.SFs
+MAKESFSFILE=Makefile.SFs
